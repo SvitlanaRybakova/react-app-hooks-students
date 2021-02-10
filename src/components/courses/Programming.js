@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { StudentContext } from "../../contexts/StudentContext";
 
 function Programming() {
+  // что бы воспользоваться данными
   const { students, removeStudent } = useContext(StudentContext);
   console.log(students);
   return (
